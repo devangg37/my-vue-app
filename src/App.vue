@@ -5,6 +5,7 @@ import Navbar from './components/Navbar.vue';
 import PacificInfo from './components/PacificInfo.vue';
 import Cards from './components/Cards.vue';
 import Architecture from './components/Architecture.vue';
+import Carousel from './components/Carousel.vue';
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import Architecture from './components/Architecture.vue';
     <PacificInfo />
     <Cards />
     <Architecture />
+    <Carousel />
   </div>
   
 </template>

@@ -1,7 +1,7 @@
 <template>
   <nav class="relative flex flex-wrap items-center justify-between py-3 mb-3 backdrop-filter backdrop-blur-lg bg-opacity-0">
     <div class="container mx-auto flex flex-wrap items-center justify-between">
-      <div class="w-full relative flex justify-between w-auto static block justify-start">
+      <div class="relative flex justify-between w-auto static block justify-start">
         <a class="text-xm font-bold leading-relaxed inline-block mr-4 py-2">
           <img class="mx-auto scale-75" src="../assets/RCP.jpg" alt="RCP Pacific">
         </a>

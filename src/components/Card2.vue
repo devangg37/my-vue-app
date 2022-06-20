@@ -1,4 +1,12 @@
 <template>
+    <div class="flex flex-col items-center bg-slate-200 py-5">
+        <div class="text-blue-900 text-2xl font-bold md:text-3xl">
+            Latest Article
+        </div>
+        <div class="flex flex-col text-center px-10 text-xs md:text-xl md:py-3 py-2">
+            <p class="break-words">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus </p>
+        </div>
+    </div>
     <div class="flex md:flex-row flex-col bg-slate-200 py-5">
         <!--Card 1-->
         <div class="rounded overflow-hidden shadow-lg hover:shadow-2xl pb-15">

@@ -17,7 +17,7 @@ export default {
     <!-- Carousel wrapper -->
     <div class="overflow-hidden relative h-80 rounded-lg md:flex md:flex-row md:justify-evenly">
          <!-- Item 1 -->
-        <div class="hidden duration-200 ease-linear h-72 flex flex-col items-center md:w-1/2 w-auto shadow-lg" data-carousel-item="active">
+        <div class="hidden duration-400 ease-linear h-72 flex flex-col items-center md:w-1/2 w-auto shadow-lg" data-carousel-item="active">
             <div class="min-h-[40%]">
                 <img src="../assets/img-card-1.jpg" class="w- h-full object-contain" />
             </div>
@@ -28,7 +28,7 @@ export default {
             </div>
         </div>
         <!-- Item 2 -->
-        <div class="hidden duration-200 ease-linear h-72 flex flex-col items-center md:w-1/2 w-auto shadow-lg" data-carousel-item>
+        <div class="hidden duration-400 ease-linear h-72 flex flex-col items-center md:w-1/2 w-auto shadow-lg" data-carousel-item>
             <div class="min-h-[40%]">
                 <img src="../assets/img-card-2.jpg" class="w- h-full object-contain" />
             </div>
@@ -39,7 +39,7 @@ export default {
             </div>
         </div>
         <!-- Item 3 -->
-        <div class="hidden duration-200 ease-linear h-72 flex flex-col items-center md:w-1/2 w-auto shadow-lg" data-carousel-item>
+        <div class="hidden duration-400 ease-linear h-72 flex flex-col items-center md:w-1/2 w-auto shadow-lg" data-carousel-item>
             <div class="min-h-[40%]">
                 <img src="../assets/img-card-3.jpg" class="w- h-full object-contain" />
             </div>

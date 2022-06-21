@@ -11,15 +11,14 @@ import Card2Vue from './components/Card2.vue';
 </script>
 
 <template>
-  <div class="container mx-auto w-11/12">
+  
     <Navbar />
     <PacificInfo />
     <Cards />
     <Architecture />
     <Card2Vue />
-    <Carousel />
-    <FooterVue />
-  </div>
+  <Carousel />
+  <FooterVue />
   
 </template>
 

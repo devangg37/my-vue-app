@@ -1,16 +1,16 @@
 <template>
-    <div class="flex flex-col items-center bg-slate-200 py-5">
+    <div class="md:px-10 flex flex-col items-center bg-slate-200 md:py-5 py-2">
         <div class="text-blue-900 text-2xl font-bold md:text-3xl">
             Latest Article
         </div>
-        <div class="flex flex-col text-center px-10 text-xs md:text-xl md:py-3 py-2">
+        <div class="flex flex-col text-center md:px-10 px-5 text-xs md:text-xl py-3">
             <p class="break-words">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus </p>
         </div>
     </div>
-    <div class="flex md:flex-row flex-col bg-slate-200 py-5">
+    <div class="px-10 flex md:flex-row flex-col bg-slate-200 md:py-5 py-2">
         <!--Card 1-->
         <div class="rounded overflow-hidden shadow-lg hover:shadow-2xl pb-15">
-                <div class="min-h-[40%]"><img class ="mx-auto object-fill" src="../assets/img-card-7.jpg" alt="Mountain"></div>
+                <div class="min-h-[40%]"><img class ="mx-auto" src="../assets/img-card-7.jpg" alt="Mountain"></div>
                 <div class="min-h-[60%] flex flex-col justify-evenly px-4 py-5">
                     <div class="font-bold mb-2 text-blue-900 md:text-xl text-xm">Using artificial intelligence to engineer materials </div>
                     <div class="text-gray-700 text-base md:text-xl text-xs">

@@ -1,6 +1,6 @@
 <template>
-  <div class="relative grid auto-rows-auto">
-    <div class="relative md:grid md:grid-cols-2 md:gap-4 md:py-2 items-center">
+  <div class="relative md:px-10 px-5 grid auto-rows-auto">
+    <div class="relative md:grid md:grid-cols-2 md:gap-4 md:py-2 py-4 items-center">
       <div class="space-y-5">
         <div class="flex flex-col md:space-y-5 space-y-3">
           <div class="text-xl md:text-6xl space-y-1.5">
@@ -28,7 +28,7 @@
       </div>
     </div>
     <div>
-      <div class="flex flex-col items-center md:space-y-2 space-y-2">
+      <div class="flex flex-col items-center space-y-2">
         <div class="md:text-5xl text-blue-900 font-bold">
           DataLake Features
         </div>

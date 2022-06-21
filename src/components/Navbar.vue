@@ -1,8 +1,8 @@
 <template>
-  <nav class="relative flex flex-wrap items-center justify-between py-3 mb-3 backdrop-filter backdrop-blur-lg bg-opacity-0">
+  <nav class="md:px-5 sticky z-10 bg-gray-100 top-0">
     <div class="container mx-auto flex flex-wrap items-center justify-between">
       <div class="relative flex justify-between w-auto static block justify-start">
-        <a class="text-xm font-bold leading-relaxed inline-block mr-4 py-2">
+        <a class="text-xm font-bold leading-relaxed inline-block mr-4">
           <img class="mx-auto scale-75" src="../assets/RCP.jpg" alt="RCP Pacific">
         </a>
       </div>
@@ -10,28 +10,28 @@
         <ul class="flex flex-row list-none ml-auto items-center">
           <div>
           <li class="nav-item">
-            <a class="px-3 py-2 text-xm font-bold text-black hover:opacity-75" href="">
+            <a class="px-3 text-xm font-bold text-black hover:opacity-75" href="">
               <span class="ml-2">Features</span>
             </a>
           </li>
           </div>
           <div>
           <li class="nav-item">
-            <a class="px-3 py-2 text-xm font-bold text-black hover:opacity-75" href="">
+            <a class="px-3 text-xm font-bold text-black hover:opacity-75" href="">
               <span class="ml-2">About</span>
             </a>
           </li>
           </div>
           <div>
           <li class="nav-item">
-            <a class="px-3 py-2 text-xm font-bold text-black hover:opacity-75" href="">
+            <a class="px-3 text-xm font-bold text-black hover:opacity-75" href="">
                 <span class="ml-2">Contact</span>
             </a>
           </li>
           </div>
           <div>
           <li class="nav-item">
-            <a class="px-3 py-2 text-xm font-bold text-black hover:opacity-75">
+            <a class="px-3 text-xm font-bold text-black hover:opacity-75">
               <button class="bg-pink-500 text-white py-2 px-4 rounded-full">
                   Request for DEMO</button>
             </a>
@@ -39,7 +39,7 @@
           </div>
           <div>
           <li class="nav-item">
-            <a class="px-3 py-2 text-xm font-bold text-black hover:opacity-75">
+            <a class="px-3 text-xm font-bold text-black hover:opacity-75">
               <img class="mx-auto scale-75" src="../assets/icon.jpg" alt="Icon">
             </a>
           </li>

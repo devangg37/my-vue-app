@@ -38,7 +38,7 @@
         </div>
       </form>
     </div>
-    <div class="grid md:grid-cols-4 md:grid-rows-none auto-rows-auto gap-3">
+    <div class="grid md:grid-cols-4 md:grid-rows-none auto-rows-auto gap-3 px-5">
       <div class="">
         <h5 class="uppercase font-bold mb-2.5 mt-2.5">RCP PACIFIC</h5>
 

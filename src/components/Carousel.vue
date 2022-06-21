@@ -15,9 +15,9 @@ export default {
 <!-- <div class="md:flex md:justify-around"> -->
 <div class="relative px-10 h-96 pt-5 w-auto" data-carousel="slide">
     <!-- Carousel wrapper -->
-    <div class="overflow-hidden relative h-80 w-full rounded-lg">
+    <div class="overflow-hidden relative h-80 w-full rounded-lg flex justify-center">
          <!-- Item 1 -->
-        <div class="duration-900 ease-linear h-80 md:w-1/4 w-auto shadow-lg" data-carousel-item="active">
+        <div class="duration-900 ease-linear h-80 md:w-1/4 w-auto shadow-lg" data-carousel-item="active block">
             <div class="min-h-[40%]">
                 <img src="../assets/walmart.jpg" class="mx-auto" />
             </div>
@@ -73,7 +73,7 @@ export default {
         </div>
     </div>
     <!-- Slider indicators -->
-    <div class="flex absolute bottom-5 left-1/2 z-5 space-x-3 -translate-x-1/2 pt-20">
+    <div class="flex justify-center relative space-x-3 pt-5">
         <button type="button" class="w-3 h-3 rounded-full bg-blue-500 hover:bg-pink-900" aria-current="false" aria-label="Slide 1" data-carousel-slide-to="0"></button>
         <button type="button" class="w-3 h-3 rounded-full bg-blue-500 hover:bg-pink-900" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
         <button type="button" class="w-3 h-3 rounded-full bg-blue-500 hover:bg-pink-900" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>

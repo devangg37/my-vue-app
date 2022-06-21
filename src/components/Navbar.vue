@@ -1,5 +1,5 @@
 <template>
-  <nav class="md:px-5 sticky z-10 bg-gray-100 top-0">
+  <nav class="md:px-5 sticky z-40 bg-gray-100 top-0">
     <div class="container mx-auto flex flex-wrap items-center justify-between">
       <div class="relative flex justify-between w-auto static block justify-start">
         <a class="text-xm font-bold leading-relaxed inline-block mr-4">

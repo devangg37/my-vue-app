@@ -68,17 +68,6 @@ export default {
                 <p class="text-pink-900">Read more</p>
             </div>
         </div>
-
-        <div class="duration-900 ease-linear h-80 shadow-lg" data-carousel-item>
-            <div class="min-h-[40%]">
-                <img src="../assets/bmw.jpg" class="mx-auto" />
-            </div>
-        <!-- Text container-->
-            <div class="min-h-[60%] flex flex-col justify-evenly px-5">
-                <p class="break-words">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat .</p>
-                <p class="text-pink-900">Read more</p>
-            </div>
-        </div>
     </div>
     <!-- Slider indicators -->
     <div class="flex justify-center relative space-x-3 pt-5">
@@ -86,7 +75,6 @@ export default {
         <button type="button" class="w-3 h-3 rounded-full bg-blue-500 hover:bg-pink-900" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
         <button type="button" class="w-3 h-3 rounded-full bg-blue-500 hover:bg-pink-900" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
         <button type="button" class="w-3 h-3 rounded-full bg-blue-500 hover:bg-pink-900" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
-        <button type="button" class="w-3 h-3 rounded-full bg-blue-500 hover:bg-pink-900" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
     </div>
     <!-- Slider controls -->
 </div>

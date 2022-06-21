@@ -12,12 +12,20 @@ export default {
 
 
 <template>
+<div class="flex flex-col items-center md:py-5 py-2">
+        <div class="text-blue-900 text-2xl font-bold md:text-3xl">
+            Success Stories
+        </div>
+        <div class="flex flex-col text-center md:px-10 px-5 text-xs md:text-xl py-3">
+            <p class="break-words">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus </p>
+        </div>
+</div>
 <!-- <div class="md:flex md:justify-around"> -->
-<div class="relative px-10 h-96 pt-5 w-auto" data-carousel="slide">
+<div class="relative px-10 h-96 pt-5 w-auto flex flex-col items-center" data-carousel="slide">
     <!-- Carousel wrapper -->
-    <div class="overflow-hidden relative h-80 w-full rounded-lg flex justify-center">
+    <div class="overflow-hidden relative h-80 w-full md:w-1/4 rounded-lg">
          <!-- Item 1 -->
-        <div class="duration-900 ease-linear h-80 md:w-1/4 w-auto shadow-lg" data-carousel-item="active block">
+        <div class="duration-900 ease-linear h-80 shadow-lg" data-carousel-item="active block">
             <div class="min-h-[40%]">
                 <img src="../assets/walmart.jpg" class="mx-auto" />
             </div>
@@ -28,7 +36,7 @@ export default {
             </div>
         </div>
         <!-- Item 2 -->
-        <div class="duration-900 ease-linear h-80 md:w-1/4 w-auto shadow-lg" data-carousel-item>
+        <div class="duration-900 ease-linear h-80 shadow-lg" data-carousel-item>
             <div class="min-h-[40%]">
                 <img src="../assets/NASA.jpg" class="mx-auto" />
             </div>
@@ -39,7 +47,7 @@ export default {
             </div>
         </div>
         <!-- Item 3 -->
-        <div class="duration-900 ease-linear h-80 md:w-1/4 w-auto shadow-lg" data-carousel-item>
+        <div class="duration-900 ease-linear h-80 shadow-lg" data-carousel-item>
             <div class="min-h-[40%]">
                 <img src="../assets/cocacola.jpg" class="mx-auto" />
             </div>
@@ -50,7 +58,7 @@ export default {
             </div>
         </div>
 
-        <div class="duration-900 ease-linear h-80 md:w-1/4 w-auto shadow-lg" data-carousel-item>
+        <div class="duration-900 ease-linear h-80 shadow-lg" data-carousel-item>
             <div class="min-h-[40%]">
                 <img src="../assets/pg.jpg" class="mx-auto" />
             </div>
@@ -61,7 +69,7 @@ export default {
             </div>
         </div>
 
-        <div class="duration-900 ease-linear h-80 md:w-1/4 w-auto shadow-lg" data-carousel-item>
+        <div class="duration-900 ease-linear h-80 shadow-lg" data-carousel-item>
             <div class="min-h-[40%]">
                 <img src="../assets/bmw.jpg" class="mx-auto" />
             </div>
